@@ -1,0 +1,49 @@
+* {
+    border: 1px solid red;
+}
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+/* header */
+header {
+    background: rgb(128,128,128);
+    padding: 25px;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+/* logo and menu */
+.header-logo, .header-menu {
+    display: flex;
+    align-items: center;
+}
+.logo-container, .menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.logo-container div, .menu-container div {
+    height: fit-content;
+}
+/* main */
+main {
+    background: rgb(223,223,223);
+}
+.main-container {
+    background: rgb(191,191,191);
+    max-width: 50%;
+    margin: 25px auto;
+    padding: 25px;
+}
+/* intro */
+.intro-title {
+    text-align: center;
+}
+.intro-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 25%;
+}
