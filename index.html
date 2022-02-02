@@ -9,9 +9,8 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-        <script src="js/scripts.js"></script>
     </head>
-    <body onload="draw()">
+    <body>
         <header>
             <div class="header-content">
                 <div class="header-logo">
@@ -36,9 +35,12 @@
             <div class="main-content">
                 <h1>Hello, World!</h1>
                 <p>Welcome to my page!</p>
-                <canvas id="canvas"></canvas>
+                <div class="canvas-container">
+                    <canvas id="myCanvas" width="480" height="320"></canvas>
+                </div>
             </div> <!-- main-content -->
             <div class="bottom-border"></div>
         </main>
+        <script src="js/scripts.js"></script>
     </body>
 </html>
