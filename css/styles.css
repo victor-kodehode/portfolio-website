@@ -4,15 +4,17 @@
 
 /* root */
 html {
-    font-size: 18px;
+    font-size: 14px;
 }
 body {
     background-image: url("../images/cloud-texture.png");
     background-attachment: fixed;
+    background-position: 0% 0%;
     color: white;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 900;
+    font-family: 'Press Start 2P', cursive;
+    line-height: 1.5em;
     margin: 0;
+    animation: 60s infinite linear myflow;
 }
 
 /* header */
@@ -121,4 +123,13 @@ a:active {
 #canvas {
   background-color: white;
   border: 2px solid black;
+}
+
+@keyframes myflow {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 256px 0;
+  }
 }
