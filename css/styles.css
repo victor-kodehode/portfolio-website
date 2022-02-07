@@ -128,8 +128,8 @@ a:active {
 }
 
 #myCanvas {
-  background: white;
-  border: 2px solid black;
+  background: #000;
+  border: 2px solid #fff;
 }
 
 @keyframes myflow {
