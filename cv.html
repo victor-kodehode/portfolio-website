@@ -2,118 +2,94 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>cv</title>
-        <link href="css/styles.css" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/index.css">
+        <title>Document</title>
     </head>
     <body>
-        <header>
-            <div class="header-content">
-                <div class="header-logo">
-                    <div class="logo-container">
-                        <div class="logo-img"><a class="logo-link" href="index.html"><img src="images/portfolio-logo.png" alt="portfolio logo"></a></div>
-                        <div class="logo-text"><a class="logo-link" href="index.html">Victor's Portfolio</a></div>
-                    </div> <!-- logo-container -->
-                </div> <!-- header-logo -->
-                <div class="header-menu">
-                    <div class="menu-container">
-                        <div><a href="index.html">Home</a></div>
-                        <div><a href="about.html">About/CV</a></div>
-                        <div><a href="work.html">Work</a></div>
-                        <div><a href="contact.html">Contact</a></div>
-                    </div> <!-- menu-container -->
-                </div> <!-- header-menu -->
-            </div>
-            <div class="bottom-border"></div>
-        </header>
-        <main>
-            <div class="top-border"></div>
-            <div class="main-content">
+        <div class="wrapper">
+            <header>
+                <div class="header--title upper">VICTOR LARSEN</div>
+                <div class="header--title lower">PORTFOLIO</div>
+                <a class="header--btn" href="./index.html">HOME</a>
+                <a class="header--btn" href="./about.html">ABOUT</a>
+                <a class="header--btn header--btn--active" href="./cv.html">CV</a>
+                <a class="header--btn" href="./work.html">WORK</a>
+            </header>
+            <main>
                 <h1>CV</h1>
                 <hr>
                 <h2>Education</h2>
                 <hr>
-                <div class="cv-item">
-                    <h3>Mathematics and Physics</h3>
-                    <p>Bachelor's degree</p>
-                    <p>University of Stavanger</p>
-                    <p>Aug 2015 - Dec 2015</p>
-                    <p>Aug 2017 - Dec 2018</p>
-                </div>
-                <div class="cv-item">
-                    <h3>Mathematics and Natural Sciences</h3>
-                    <p>1 year study</p>
-                    <p>University of Bergen</p>
-                    <p>Aug 2016 - Jun 2017</p>
-                </div>
-                <div class="cv-item">
-                    <h3>Science</h3>
-                    <p>Study specialization</p>
-                    <p>Sola High School</p>
-                    <p>Aug 2012 - Jun 2015</p>
-                </div>
+                <div class="cv--info">Mathematics and Physics</div>
+                <div class="cv--info">Bachelor's degree</div>
+                <div class="cv--info">University of Stavanger</div>
+                <div class="cv--date">Aug 2015 - Dec 2015</div>
+                <div class="cv--date">Aug 2017 - Dec 2018</div>
+                <br>
+                <div class="cv--info">Mathematics and Natural Sciences</div>
+                <div class="cv--info">1 year study</div>
+                <div class="cv--info">University of Bergen</div>
+                <div class="cv--date">Aug 2016 - Jun 2017</div>
+                <br>
+                <div class="cv--info">Science</div>
+                <div class="cv--info">Study specialization</div>
+                <div class="cv--info">Sola High School</div>
+                <div class="cv--date">Aug 2012 - Jun 2015</div>
                 <hr>
                 <h2>Highlighted Experience</h2>
                 <hr>
-                <div class="cv-item">
-                    <h3>Heat pump installer</h3>
-                    <p>A.I Varmepumper AS</p>
-                    <p>Installation and service</p>
-                    <p>May 2021 - Jun 2021</p>
-                </div>
-                <hr>
-                <h2>Other Experience</h2>
-                <hr>
-                <p>10 years as a scout</p>
-                <p>1 summer helping out at a garden center</p>
+                <div class="cv--info">Heat pump installer</div>
+                <div class="cv--info">A.I Varmepumper AS</div>
+                <div class="cv--info">Installation and service</div>
+                <div class="cv--date">May 2021 - Jun 2021</div>
                 <hr>
                 <h2>Courses</h2>
                 <hr>
-                <div class="cv-item">
-                    <h3>Full stack development course</h3>
-                    <p>Kodehode</p>
-                    <p>Jobloop</p>
-                    <p>Nov 2021 - Oct 2022 (ongoing)</p>
-                </div>
+                <div class="cv--info">Full stack web development course</div>
+                <div class="cv--info">Kodehode, Jobloop</div>
+                <div class="cv--date">Nov 2021 - (ongoing as of Mar 2022)</div>
+                <hr>
+                <h2>Other Experience</h2>
+                <hr>
+                <ul>
+                    <li>10 years as a scout</li>
+                    <li>1 summer helping out at a garden center</li>
+                </ul>
                 <hr>
                 <h2>Skills</h2>
                 <hr>
-                <div class="cv-item">
-                    <h3>Language</h3>
-                    <ul>
-                        <li>Norwegian, fluent</li>
-                        <li>English, fluent</li>
-                        <li>German, partial understanding of words</li>
-                    </ul>
-                </div>
-                <div class="cv-item">
-                    <h3>IT</h3>
-                    <ul>
-                        <li>Well versed in Microsoft Excel</li>
-                        <li>Word</li>
-                        <li>Powerpoint</li>
-                    <ul>
-                </div>
-                <div class="programming">
-                    <h3>Programming</h3>
-                    <ul>
-                        <li>C</li>
-                        <li>Python</li>
-                        <li>JavaScript</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                    </ul>
-                </div>
+                <h3>Language</h3>
+                <ul>
+                    <li>English, fluent</li>
+                    <li>Norwegian, fluent</li>
+                    <li>German, some understanding of words</li>
+                </ul>
+                <h3>IT</h3>
+                <ul>
+                    <li>Well versed in Microsoft Excel</li>
+                    <li>Word</li>
+                    <li>Powerpoint</li>
+                </ul>
+                <h3>Programming</h3>
+                <ul>
+                    <li>C</li>
+                    <li>Python</li>
+                    <li>HTML, CSS and JavaScript (Vanilla and React)</li>
+                </ul>
                 <hr>
                 <h2>References</h2>
                 <hr>
-                <p>Atle Ims, A.I Varmepumper AS</p>
-            </div> <!-- main-content -->
-            <div class="bottom-border"></div>
-        </main>
+                <ul>
+                    <li>Atle Ims, A.I Varmepumper AS</li>
+                </ul>
+            </main>
+            <footer>
+                <div class="footer--title">CONTACT INFO</div>
+                <div class="footer--txt">victor.kodehode@gmail.com</div>
+                <a class="footer--email" href="mailto:victor.kodehode@gmail.com"><img class="footer--img" src="./images/email-icon.png" alt="email link"></a>
+                <a class="footer--github" href="https://github.com/victor-kodehode"><img class="footer--img" src="./images/github-icon.svg" alt="github link"></a>
+            </footer>
+        </div>
     </body>
 </html>

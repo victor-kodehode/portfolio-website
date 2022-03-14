@@ -2,45 +2,34 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>about</title>
-        <link href="css/styles.css" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/index.css">
+        <title>Portfolio - About</title>
     </head>
     <body>
-        <header>
-            <div class="header-content">
-                <div class="header-logo">
-                    <div class="logo-container">
-                        <div class="logo-img"><a class="logo-link" href="index.html"><img src="images/portfolio-logo.png" alt="portfolio logo"></a></div>
-                        <div class="logo-text"><a class="logo-link" href="index.html">Victor's Portfolio</a></div>
-                    </div> <!-- logo-container -->
-                </div> <!-- header-logo -->
-                <div class="header-menu">
-                    <div class="menu-container">
-                        <div><a href="index.html">Home</a></div>
-                        <div><a href="about.html">About/CV</a></div>
-                        <div><a href="work.html">Work</a></div>
-                        <div><a href="contact.html">Contact</a></div>
-                    </div> <!-- menu-container -->
-                </div> <!-- header-menu -->
-            </div>
-            <div class="bottom-border"></div>
-        </header>
-        <main>
-            <div class="top-border"></div>
-            <div class="main-content">
+        <div class="wrapper">
+            <header>
+                <div class="header--title upper">VICTOR LARSEN</div>
+                <div class="header--title lower">PORTFOLIO</div>
+                <a class="header--btn" href="./index.html">HOME</a>
+                <a class="header--btn header--btn--active" href="./about.html">ABOUT</a>
+                <a class="header--btn" href="./cv.html">CV</a>
+                <a class="header--btn" href="./work.html">WORK</a>
+            </header>
+            <main>
                 <h1>About Me</h1>
-                <img src="images/pineapple.jpg" alt="profile picture of me" width="200px" height="200px">
-                <p>Hey! My name's Victor. I'm a participant on the IT AMO course Kodehode directed by Jobloop where I learn to become a full stack web developer. During my time here I've gotten good at several languages such as Python, JavaScript, HTML and CSS. Before the course I taught myself C, which made learning the other languages much easier. At this course I've shown, among other things, efficiency, ability to build and follow a routine, understand and tackle a project in steps and to meet deadlines.</p>
-                <p>I have a background in mathematics, physics and prior knowledge of programming in C. Because of this, logic and problem solving has become second nature to me, and this carries over to programming.</p>
-                <h2>CV</h2>
-                <p>My CV you can find <a href="cv.html">here</a>.</p>
-            </div> <!-- main-content -->
-            <div class="bottom-border"></div>
-        </main>
+                <p>Hey! My name is Victor and I am taking the Kodehode course directed by Jobloop where I'm learning full stack web development.</p>
+                <p>In my time here I've worked with HTML, CSS, JS, ReactJS, Python, Django, SQL and Firebase. Earlier I've worked with C, something that made the rest easier to learn. Jack of all trades is what probably fits me best.</p>
+                <p>With a background in mathematics and physics, logical thinking and problem solving are second nature to me. I like challenges and I'm always eager to learn new things!</p>
+                <p>In my spare time I enjoy a variety of games, and spend a lot of time reading about sciences like meteorology, geology and physics. I'm a big fan of space and spaceflight.</p>
+                <p>That about sums it up!</p>
+            </main>
+            <footer>
+                <div class="footer--title">CONTACT INFO</div>
+                <div class="footer--txt">victor.kodehode@gmail.com</div>
+                <a class="footer--email" href="mailto:victor.kodehode@gmail.com"><img class="footer--img" src="./images/email-icon.png" alt="email link"></a>
+                <a class="footer--github" href="https://github.com/victor-kodehode"><img class="footer--img" src="./images/github-icon.svg" alt="github link"></a>
+            </footer>
+        </div>
     </body>
 </html>

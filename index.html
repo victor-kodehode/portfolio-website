@@ -2,48 +2,32 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>home</title>
-        <link href="css/styles.css" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/index.css">
+        <title>Portfolio - Home</title>
     </head>
     <body>
-        <header>
-            <div class="header-content">
-                <div class="header-logo">
-                    <div class="logo-container">
-                        <div class="logo-img"><a class="logo-link" href="index.html"><img src="images/portfolio-logo.png" alt="portfolio logo"></a></div>
-                        <div class="logo-text"><a class="logo-link" href="index.html">Victor's Portfolio</a></div>
-                    </div> <!-- logo-container -->
-                </div> <!-- header-logo -->
-                <div class="header-menu">
-                    <div class="menu-container">
-                        <div><a href="index.html">Home</a></div>
-                        <div><a href="about.html">About/CV</a></div>
-                        <div><a href="work.html">Work</a></div>
-                        <div><a href="contact.html">Contact</a></div>
-                    </div> <!-- menu-container -->
-                </div> <!-- header-menu -->
-            </div>
-            <div class="bottom-border"></div>
-        </header>
-        <main>
-            <div class="top-border"></div>
-            <div class="main-content">
-                <h1>Hello, World!</h1>
-                <p>Welcome to my page!</p>
-                <div class="canvas-container">
-                    <h2>bouncing objects</h2>
-                    <canvas id="myCanvas" width="480" height="320"></canvas>
+        <div class="wrapper">
+            <header>
+                <div class="header--title upper">VICTOR LARSEN</div>
+                <div class="header--title lower">PORTFOLIO</div>
+                <a class="header--btn header--btn--active" href="./index.html">HOME</a>
+                <a class="header--btn" href="./about.html">ABOUT</a>
+                <a class="header--btn" href="./cv.html">CV</a>
+                <a class="header--btn" href="./work.html">WORK</a>
+            </header>
+            <main>
+                <div class="home">
+                    <h1 id="scramble"></h1>
                 </div>
-                <p><a href="game1.html">go to game #1</a></p>
-            </div> <!-- main-content -->
-            <div class="bottom-border"></div>
-        </main>
-        <script src="js/scripts.js"></script>
-        <script src="js/canvas1.js"></script>
+            </main>
+            <footer>
+                <div class="footer--title">CONTACT INFO</div>
+                <div class="footer--txt">victor.kodehode@gmail.com</div>
+                <a class="footer--email" href="mailto:victor.kodehode@gmail.com"><img class="footer--img" src="./images/email-icon.png" alt="email link"></a>
+                <a class="footer--github" href="https://github.com/victor-kodehode"><img class="footer--img" src="./images/github-icon.svg" alt="github link"></a>
+            </footer>
+        </div>
+        <script src="./js/index.js"></script>
     </body>
 </html>
